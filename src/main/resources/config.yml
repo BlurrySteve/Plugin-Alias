@@ -1,0 +1,7 @@
+# Format:
+# yourAlias: targetCommand
+
+aliases:
+  msg: tell
+
+  # yourAlias: targetCommand

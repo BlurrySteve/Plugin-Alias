@@ -1,0 +1,16 @@
+name: CommandAliases
+version: 1.0
+main: me.blurrysteve.com.CommandAliases
+author: BlurrySteve
+description: A plugin that allows setting up command aliases via configuration
+
+commands:
+  cmdalias:
+    description: CommandAliases administration commands
+    usage: /cmdalias reload
+    permission: commandaliases.admin
+
+permissions:
+  commandaliases.admin:
+    description: Allows access to CommandAliases admin commands
+    default: op
